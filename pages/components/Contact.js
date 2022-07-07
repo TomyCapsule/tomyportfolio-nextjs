@@ -22,7 +22,6 @@ function Contact(){
         api.start({opacity: 0});  
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID , contactFormRef.current, process.env.REACT_APP_USER_ID)
             .then((result)=>{
-                console.log('result:',result);
                 setMailSent(true);
                 
             }, (error) => {
@@ -44,7 +43,6 @@ function Contact(){
         config: { mass: 5, tension: 500, friction: 80},
     })
 
-    console.log('flipped',flipped)
 
     const dispatch = useDispatch()
     const [isOnView, setIsOnView] = useState(false);

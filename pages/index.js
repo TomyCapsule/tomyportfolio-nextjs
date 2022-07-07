@@ -33,7 +33,6 @@ function App() {
 
   const [currentPage,setCurrentPage] = useState(null);
   let handlePageChange = page =>{
-    console.log('page',page)
     setCurrentPage(page);
   }
 

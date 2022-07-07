@@ -43,9 +43,6 @@ function MyNavi(props){
       props.handlePageChange(page);
     }
 
-    console.log('worksState',worksState);
-    console.log('navbarState',navbarState);
-
     if(navbarState){
       return(
         <>
