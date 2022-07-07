@@ -91,8 +91,8 @@ function Works(){
                                     <li style={{textAlign:'start'}}>Nectaar, une application mobile développée en moins de 2 semaines qui permet de réserver des places pour des événements culturels</li>
                                     <li style={{textAlign:'start'}}>My Weather App, une simple web-app météo</li>
                                     <li style={{textAlign:'start'}}>Morning News, une web-app qui donne les dernières nouvelles</li>
-                                    <li style={{textAlign:'start'}}>Ce portfolio, développé en React avec reactstrap, from scratch<br/>
-                                        <span className="fw-bold">Je compte le migrer vers Next.js et remplacer reactstrap par tailwind.</span> J'ai juste besoin d'un peu de temps pour apprendre ces technos et faire quelques tests sur des mini-projets !
+                                    <li style={{textAlign:'start'}}>Ce portfolio, développé à l'origine en React mais désormais sous <span className="fw-bold">Next.JS</span><br/>
+                                        <span className="fw-bold">Je compte remplacer reactstrap par tailwind.</span> J'ai juste besoin d'un peu de temps pour apprendre ces technos et faire quelques tests sur des mini-projets !
                                     </li>
                                 </ul>
                         </div>
