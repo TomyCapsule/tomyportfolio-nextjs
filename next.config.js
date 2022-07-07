@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images:{
-        domains: ['nectaar.io']
+        domains: ['https://nectaar.io']
     }
   }
   

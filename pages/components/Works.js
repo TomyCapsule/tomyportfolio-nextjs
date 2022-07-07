@@ -118,7 +118,7 @@ function Works(){
                         <Waypoint onEnter={()=>{dispatch(lightNavBar())}}/>
                         <div className="d-flex flex-column justify-content-start align-items-start h-100" >
                             <div style={{position:"relative",width:"80%", height:"50%"}}>
-                                <Image layout="fill" objectFit="contain" src="http://nectaar.io/wp-content/uploads/2022/01/NECTAAR.svg" alt="nectaar-logo" />
+                                <Image layout="fill" objectFit="contain" src="https://nectaar.io/wp-content/uploads/2022/01/NECTAAR.svg" alt="nectaar-logo" />
                             </div>
                             <div>
                                 <Badge className="badge-tech fs-6">React Native</Badge>
