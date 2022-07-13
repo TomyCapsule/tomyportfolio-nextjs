@@ -87,7 +87,7 @@ function Works(){
                         <div className='d-flex flex-column justify-content-center align-items-start' 
                             style={{borderRadius:"4%", padding:"100px 20px", color:'white'}}>
                                 <span>Vous trouverez ici les projets auxquels j'ai participé:</span>
-                                <ul className="mt-2 d-flex flex-column align-items-start w-100">
+                                <ul className="mt-2 d-flex flex-column align-items-start w-100 list-disc">
                                     <li style={{textAlign:'start'}}>Nectaar, une application mobile développée en moins de 2 semaines qui permet de réserver des places pour des événements culturels</li>
                                     <li style={{textAlign:'start'}}>My Weather App, une simple web-app météo</li>
                                     <li style={{textAlign:'start'}}>Morning News, une web-app qui donne les dernières nouvelles</li>

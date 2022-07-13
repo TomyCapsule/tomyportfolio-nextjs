@@ -87,7 +87,7 @@ function About(){
                         <Image layout="fill" objectFit="contain" src={plantIcon}  alt="plant"/>
                     </div>
                 </div>
-                <animated.div className="col-5" style={fadeInFromRight}>
+                <animated.div className="col-5 flex justify-center" style={fadeInFromRight}>
                     <img layout="fill" className="box-shadow" src='/Tomy.jpg' style={{width: "62%",borderRadius:"4%",zIndex:1}} alt="profilepic"/>                 
                 </animated.div>
                 <animated.div style={titleFade}>
