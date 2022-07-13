@@ -80,7 +80,7 @@ function Works(){
         >
             <div className='content justify-content-evenly test-bg4'>
                 <Waypoint onEnter={()=>{setIsOnView(true);dispatch(darkNavBar())}} onLeave={()=>{setIsOnView(false);setIsSubAnimOver(false)}}/> 
-                <animated.div className="col-5" style={fadeInFromLeft}>
+                <animated.div className="col-5 d-flex justify-content-center" style={fadeInFromLeft}>
                     <img className="box-shadow" src='./works-small.jpg' style={{width: "65%",borderRadius:"4%"}} alt="contactpic"/>                 
                 </animated.div>
                 <animated.div className="col-lg-5 " style={fadeInFromRight}>

@@ -20,7 +20,7 @@ function Contact(){
     let handleContactForm = (e) =>{
         e.preventDefault();
         api.start({opacity: 0});  
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID , contactFormRef.current, process.env.REACT_APP_USER_ID)
+        emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID , contactFormRef.current, process.env.NEXT_PUBLIC_USER_ID)
             .then((result)=>{
                 setMailSent(true);
                 
