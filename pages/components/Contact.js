@@ -141,7 +141,7 @@ function Contact(){
                         style={{
                             width:'min-content',fontSize:'150px',
                             color:'white',position:'absolute',
-                            top:"25vh",right:"20vw",opacity:0.4
+                            top:"25vh",right:"15vw",opacity:0.4
                         }}>Contact</h1>
                 </animated.div>
                 <animated.div className="w-full" style={fadeInFromBottom}>

@@ -103,7 +103,7 @@ function Works(){
                         style={{
                             width:'min-content',fontSize:'150px',
                             color:'white',position:'absolute',
-                            top:"24vh",right:"20vw",opacity:0.4
+                            top:"24vh",right:"15vw",opacity:0.4
                         }}>Projets</h1>
                 </animated.div>
                 <animated.div className="w-full" style={submarineAnimationUp}>
