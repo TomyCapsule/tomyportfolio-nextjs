@@ -85,9 +85,8 @@ function Contact(){
     return(
             <div className='content justify-content-evenly test-bg3'>
                 <Waypoint onEnter={()=>{setIsOnView(true);dispatch(darkNavBar())}} onLeave={()=>setIsOnView(false)}/>
-                <animated.div className="col-5" style={fadeInFromLeft}>
-                    <img layout="fill" className="box-shadow" src='/contact.jpg' style={{width: "65%",borderRadius:"4%"}} alt="contactpic"/>
-                                
+                <animated.div className="flex justify-center col-5" style={fadeInFromLeft}>
+                    <img layout="fill" className="box-shadow" src='/contact.jpg' style={{width: "65%",borderRadius:"4%"}} alt="contactpic"/>            
                 </animated.div>
                 <a.div className="col-lg-5 offset-1 d-flex contact-link-reposition" style={{position:'inherit',top:'-30vh',...fadeInFromRight}}>
                     <animated.div className="contact-flip" 
@@ -145,11 +144,11 @@ function Contact(){
                             top:"25vh",right:"20vw",opacity:0.4
                         }}>Contact</h1>
                 </animated.div>
-                <animated.div style={fadeInFromBottom}>
-                    <img layout="fill" src='/hotspot.png' className="pictogram-coffee ms-4" alt="coffeepic"/>
+                <animated.div className="w-full" style={fadeInFromBottom}>
+                    <img src='/hotspot.png' className="pictogram-coffee ms-4" alt="coffeepic"/>
                 </animated.div>
                 <div style={{position:'absolute',top:'20vh', right: '5vw', width:'250px', color:'#FFF',zIndex:2}}>
-                    <span>
+                    <span className="flex">
                         {flipped ? 'Plutôt des liens en fait' : 'Plutôt un formulaire ?'}
                         <img layout="fill" onClick={()=>setFlipped(!flipped)} src="/flip.png" alt="flip" className="filter-white ms-3" 
                             style={{width:'30px', cursor:'pointer'}} />

@@ -106,7 +106,7 @@ function Works(){
                             top:"24vh",right:"20vw",opacity:0.4
                         }}>Projets</h1>
                 </animated.div>
-                <animated.div style={submarineAnimationUp}>
+                <animated.div className="w-full" style={submarineAnimationUp}>
                     <img layout="fill" src='/submarine2.png' alt='submarine-pic' className="pictogram-submarine" 
                     style={isSubAnimOver ? {transform:'rotate(0deg)',transition:'0.3s ease-in-out'} : undefined }/>
                 </animated.div>

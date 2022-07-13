@@ -107,7 +107,7 @@ function Home(props){
             
             <animated.div style={moveScrollMessageBottom}>
                 <div className="scrollmarkerdiv">
-                    <p className="scrollmarker" style={{color:'white', display:homeOnView ? 'none' : undefined}}>Scrolldown</p>
+                    <p className="scrollmarker" style={{margin:'10px',color:'white', display:homeOnView ? 'none' : undefined}}>Scrolldown</p>
                 </div>
             </animated.div>
         </>
